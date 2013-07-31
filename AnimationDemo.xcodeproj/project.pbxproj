@@ -18,6 +18,7 @@
 		21F00B18179C0D5100BBF106 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F00B17179C0D5100BBF106 /* Default-568h@2x.png */; };
 		21F00B1B179C0D5100BBF106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F00B1A179C0D5100BBF106 /* ViewController.m */; };
 		21F00B1E179C0D5200BBF106 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F00B1C179C0D5100BBF106 /* ViewController.xib */; };
+		21F00B26179C269500BBF106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F00B25179C269500BBF106 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		21F00B19179C0D5100BBF106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		21F00B1A179C0D5100BBF106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		21F00B1D179C0D5200BBF106 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		21F00B25179C269500BBF106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F00B26179C269500BBF106 /* QuartzCore.framework in Frameworks */,
 				21F00B02179C0D5100BBF106 /* UIKit.framework in Frameworks */,
 				21F00B04179C0D5100BBF106 /* Foundation.framework in Frameworks */,
 				21F00B06179C0D5100BBF106 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +59,7 @@
 		21F00AF5179C0D5100BBF106 = {
 			isa = PBXGroup;
 			children = (
+				21F00B25179C269500BBF106 /* QuartzCore.framework */,
 				21F00B07179C0D5100BBF106 /* AnimationDemo */,
 				21F00B00179C0D5100BBF106 /* Frameworks */,
 				21F00AFF179C0D5100BBF106 /* Products */,
@@ -261,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimationDemo/AnimationDemo-Prefix.pch";
 				INFOPLIST_FILE = "AnimationDemo/AnimationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +277,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimationDemo/AnimationDemo-Prefix.pch";
 				INFOPLIST_FILE = "AnimationDemo/AnimationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+{
+    UIScrollView *mScrollView;
+    
+    BOOL leftDirecting;
+    CGFloat mPosX;
+    NSTimer *mtimer;
+}
 
 @end
